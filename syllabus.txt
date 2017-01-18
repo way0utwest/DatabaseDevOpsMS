@@ -1,0 +1,52 @@
+1.	Introduction to Database DevOps  
+	a.	Intro 
+	b.	Challenges for database automation 
+		i.	Integrity and security of Production data 
+		ii.	Production data vs reference data 
+		iii.	Test data (in dev and other pre-Production environments) 
+		iv.	The DBA (unfamiliar with tools, change) 
+		v.	Environment differences 
+		vi.	Dependencies (within database and across databases) 
+		vii.	Multiple applications accessing the same db 
+		viii.	Database drift (aka – Hot fixes directly to Prod) 
+		ix.	Maintaining backwards compatibility 
+		x.	Recovering from releases (rollback vs roll forward) 
+	c.	Options 
+		i.	ORM 
+		ii.	State-based 
+		iii.	Migrations-based 
+	d.	State vs Migrations Pros and Cons [Symbol] Hybrid Solution 
+	e.	Better collaboration between developers and DBAs 
+ 
+2.	Including your database in development practices  
+	a.	Source controlling your database 
+		i.	Migration scripts 
+		ii.	Schema 
+		iii.	Reference data 
+	b.	Including your database in Continuous Integration  
+	c.	Continuous unit testing for databases (high level – this could be a class in itself, which we could produce) 
+ 
+3.	Release Management and the database 
+	a.	Releasing your database in non-Production and Production environments 
+		i.	Staging environments 
+		ii.	Manual review steps for Production (comparison report, preview script, review warnings) 
+	b.	Validating deployments 
+	c.	Dealing with database drift 
+	d.	Additional database testing 
+		i.	Integration testing 
+		ii.	Data generation 
+ 
+4.	Monitoring databases after releasing 
+	a.	Understanding how releases impact database servers and performance 
+	b.	Dealing with database drift 
+	c.	Recovering when things go wrong 
+		i.	Importance of backups 
+		ii.	Rolling forward 
+	 
+5.	Advanced topics 
+	a.	Provisioning dev and test environments  
+	b.	Branching and merging database changes 
+	c.	Organizing database releases (semantic versioning) 
+	d.	Dealing with differences across environments or customer sites 
+		i.	User permissions and roles 
+		ii.	Customize releases per customer site (SQLCMD variables) 
