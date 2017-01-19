@@ -1,5 +1,7 @@
 1.	Introduction to Database DevOps  
 	a.	Intro 
+		i. Course overview
+		ii. structure and format.
 	b.	Challenges for database automation 
 		i.	Integrity and security of Production data 
 		ii.	Production data vs reference data 
@@ -15,8 +17,13 @@
 		i.	ORM 
 		ii.	State-based 
 		iii.	Migrations-based 
-	d.	State vs Migrations Pros and Cons [Symbol] Hybrid Solution 
-	e.	Better collaboration between developers and DBAs 
+	d.	State vs Migrations Pros and Cons - Hybrid Solution 
+		i. what is state based development approach
+		ii. What is a migrations based development approach
+		iii. comparison of the two approaches
+	e.	Better collaboration between developers and DBAs
+		i. challenges in many organizations
+		ii. advantages of a common approach
  
 2.	Including your database in development practices  
 	a.	Source controlling your database 
@@ -24,8 +31,14 @@
 		ii.	Schema 
 		iii.	Reference data 
 	b.	Including your database in Continuous Integration  
+		i. the build process
+		ii. packaging changes for upgrades
 	c.	Continuous unit testing for databases (high level – this could be a class in itself, which we could produce) 
- 
+		i. overview of testing database code
+		ii. frameworks available
+		iii. test data generation
+
+
 3.	Release Management and the database 
 	a.	Releasing your database in non-Production and Production environments 
 		i.	Staging environments 
@@ -34,7 +47,7 @@
 	c.	Dealing with database drift 
 	d.	Additional database testing 
 		i.	Integration testing 
-		ii.	Data generation 
+		ii. smoke testing
  
 4.	Monitoring databases after releasing 
 	a.	Understanding how releases impact database servers and performance 
