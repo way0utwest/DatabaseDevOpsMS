@@ -1,0 +1,19 @@
+Database DevOps - Course Overview
+
+This course is designed to cover the ways in which DevOps development practices can be introduced to database development. Traditionally DevOps practices have not dealt with databases very well, since databases post unique challenges to the agile nature of DevOps processes. However, the database can be managed much like other software and the same principles applied.
+
+Update 1:
+
+Welcome to the Database DevOps course. My name is Steve Jones and I am the editor of SQLServerCentral and an evangelist for Redgate Software. I will be your host for this course, and I hope that you will gain some valuable skills that will help you include your databases alongside your other software development processes.
+
+This course will consist of four modules. Each one will consist of a variety of course materials, including lecture, demonstrations, and activities. There are module assessments that will count for xx% of the total grade. You much achieve xxx% to pass the course. You can download the course syllabus to view the detailed grading structure and schedule.
+
+In this course, you will learn how to:
+- Define DevOps
+- Indentify the challenges of using databases that are separate from other software languages and platforms
+- Include your database code alongside other application code in a version control system (VCS).
+- Setup a Continuous Integration (CI) platform for your database code.
+- Write and include automated unit tests for your database code.
+- Develop an automated release process that deploys database changes to both on premise and cloud databases.
+
+Again, welcome and thanks for taking this course from Microsoft.

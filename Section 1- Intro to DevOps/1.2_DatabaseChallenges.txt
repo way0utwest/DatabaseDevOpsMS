@@ -1,0 +1,8 @@
+DevOps Challenges for Databases
+
+Why is a database different from other code in your software application? After all, both are programmed using some computer language. Our code is compiled and executed by a computer. How is a database different?
+
+This is advice, not a set of instructions. If anyone tells you that DevOps has to be done a certain way, or with a certain order, then I would recommend you shy away from their advice. DevOps is based on a set of principles, which provide guidance, but not prescriptive advice for making your software development process better.
+
+
+
