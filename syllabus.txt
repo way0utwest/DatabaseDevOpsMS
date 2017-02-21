@@ -7,10 +7,10 @@
 	- What is DevOps?
 		-	Basic description
 		-	refer to other resources and courses from MS
-	-	Challenges for database automation 
+	-	Challenges for database DevOps 
 		- 	Code Structure
 		-	Integrity and security of Production data 
-		-	Production data vs reference data 
+		-	Production data vs reference data v config data
 		-	Test data (in dev and other pre-Production environments) 
 		-	The DBA (unfamiliar with tools, change) 
 		-	Environment differences 
