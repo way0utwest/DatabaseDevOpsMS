@@ -56,15 +56,16 @@ The main syllabus I'm working from
 		* the build process
 		* packaging changes for upgrades
 		* DEMO * CI process in Azure (VSTS)
-	* Continuous unit testing for databases (high level – this could be a class in itself, which we could produce) 
+	* Continuous unit testing for database code (high level – this could be a class in itself, which we could produce) 
 		* overview of testing database code
 		* frameworks available
 		* test data generation
 		* DEMO * write two tests
 
 
-*	Release Management and the database 
-	* Releasing your database in non*Production and Production environments
+*	Release Management and the database
+	* What is release management and why is it necessary? 
+	* Releasing your database in non-Production and Production environments
 		* Deploying Intermediate Environments for testing
 			* DEMO release process in VSTS
 		* Staging environments
