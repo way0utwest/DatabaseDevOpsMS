@@ -75,7 +75,15 @@ The main syllabus I'm working from
 			* DEMO * Add a step for an approver
 	* Validating deployments 
 		* Post deploy
-	* Dealing with database drift 
+	* Application requirements outside of the database code
+		* Most of the server configuration is standardized, but there are some items that aren't
+			* configuration
+			* data
+		* Managing server configuration and build
+			* teaching DBAs to use VCS for their setup
+			* use unattended installation 
+			* Chef/Puppet	
+		* Dealing with database drift 
 	* Additional database testing 
 		* Integration testing 
 		* Smoke testing
@@ -83,30 +91,10 @@ The main syllabus I'm working from
 		* Importance of backups 
 		* Rolling forward 
 
-* Server Configuration Management
-	* Application requirements outside of the database code
-		* Most of the server configuration is standardized, but there are some items that aren't
-		* configuration
-		* data
-	* Managing server configuration and build
-		* teaching DBAs to use VCS for their setup
-		* use unattended installation 
-		* Chef/Puppet
-	* Configuration Settings
-		* Post installation, there may be changes that need to be made for a particular instance.
-		* jobs, linked servers, security
-		* storing these changes in a VCS
-		* deploy as a part of the pipeline, starting with development.
-	* Environment and Data Changes
-		* There are sometimes items that change between environments.
-		* Often these are settings, such as mail servers, ports, servernames, etc.
-		* These need to be version controlled, but this might be as part of the release process, where changes are injected.
-
 	 
 *	Advanced topics 
 	* Monitoring databases after releasing 
 	* Understanding how releases impact database servers and performance 
-	* Dealing with database drift 
 	* Branching and merging database changes 
 		* develop using branches
 		* merges for db code
