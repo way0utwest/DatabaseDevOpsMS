@@ -93,16 +93,14 @@ The main syllabus I'm working from
 
 	 
 *	Advanced topics 
+	* Dark Launching
 	* Monitoring databases after releasing 
-	* Understanding how releases impact database servers and performance 
 	* Branching and merging database changes 
 		* develop using branches
 		* merges for db code
 		* Git and pull requests
 		* DEMO * develop in a branch, issue PR, merge, resolve conflicts.
-	* 	Monitoring the database after release
-		* tracking deployments in your monitoring tool
-		* adding custom instrumentation
+	* Understanding how releases impact database servers and performance 
 	* Provisioning dev and test environments
 		* Quick refreshes of environments needed, esp for CI.
 	* Dealing with differences across environments or customer sites 
