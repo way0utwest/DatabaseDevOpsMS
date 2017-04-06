@@ -13,14 +13,13 @@ At a high level, the modules are:
 
 Each of the modules is discussed in more detail below, with the lesson and topic sections produced
 
-## Course Overview
-* Intro 
-	* Course overview
-	* Author Introduction
-	* Structure and format of course
-* Lab requirements and setup
+## Module 0 - Course Overview
+* Lesson - Introduction
+	* Topic - Intro (video + text)
+	* Topic - About this Course
+	* Topic - Lab
 
-## Introduction to Database DevOps  
+## Module 1 - Introduction to Database DevOps  
 This module is a short introduction to DevOps and then a series of sections on the challenges of databases specific to the various implementations of DevOps ideas.
 
 * Lesson 1 - What is DevOps?
@@ -122,7 +121,7 @@ This section examines the CD portion of database development.
 	* Topic - Deploying new systems
 	* Topic - Building Habits (getting the Ops side to use DevOps)
 
-## Module 4 - Advanced topics 
+## Module 4 - Advanced database DevOps topics 
 * Lesson - Monitoring Databases
 	* Topic - Understanding how releases impact database servers and performance 
 	* Topic - Monitoring performance
