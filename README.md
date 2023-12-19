@@ -7,3 +7,4 @@ Access the course at EdX.org (coming soon)
 # Contribute
 Comments and criticisms are welcome: [@way0utwest]("http://www.twitter.com/way0utwest") 
 
+Update - this is moved to github
